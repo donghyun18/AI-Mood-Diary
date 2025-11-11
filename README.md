@@ -1,8 +1,5 @@
 # Mood Diary 
 
-<br>
-
-<br>
 
 ## 📝 Project Overview
 
