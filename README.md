@@ -3,7 +3,7 @@
 
 ## 📝 Project Overview
 
-This project is a redesigned and upgraded version of the previous **Mood Diary** application.  
+This project is a designed and upgraded version of the normal **Mood Diary** application.  
 It was migrated to **Vite + TypeScript + Tailwind CSS**, and enhanced with:
 
 <br>
