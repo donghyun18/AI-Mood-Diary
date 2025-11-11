@@ -294,7 +294,7 @@ npm run dev
 
 <br>
 
-## 폴더 구조
+## Folder Structure
 
 ```bash
 .
