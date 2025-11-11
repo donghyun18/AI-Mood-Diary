@@ -1,4 +1,4 @@
-# Mood Diary 
+# AI-Mood-Diary 
 
 
 ## 📝 Project Overview
