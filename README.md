@@ -97,7 +97,7 @@ Users can switch between dark mode and light mode by clicking the toggle button 
 
 <br>
 
-### 4. AI Reply System
+## 4. AI Reply System
 
 The project includes an AI reply system that analyzes the user's diary entry and generates:
 - A one-line supportive advice
@@ -204,7 +204,7 @@ STRICT JSON ONLY:
 
 ```
 
-### 5. Emotion Comparison (User vs AI)
+## 5. Emotion Comparison (User vs AI)
 
 This section compares the **user-selected emotion** with the **AI-predicted emotion** and displays:
 - The AI’s predicted emotion and confidence
@@ -215,7 +215,7 @@ The comparison helps evaluate **Human–AI agreement** and makes the diary more 
 
 ---
 
-#### ✅ Data Model
+### ✅ Data Model
 
 Add AI fields to the diary type:
 
@@ -235,32 +235,32 @@ export interface DiaryType {
 }
 
 ```
-#### ✅ Why it’s Useful
+### ✅ Why it’s Useful
 - Provides a transparent Human–AI agreement signal for each diary entry
 - Encourages reflection: users can compare self-perceived mood vs. AI inference
 
 ![Demo GIF](images/reply.gif)
 
-### 6. Emotion History Chart
+## 6. Emotion History Chart
 
 Visualize monthly mood trends with a lightweight line chart. This helps track changes over time and complements the AI comparison feature.
 
 ---
 
-#### ✅ Install
+### ✅ Install
 
 ```bash
 npm i recharts
 ```
 
-#### ✅ Notes
+### ✅ Notes
 - The Y-axis uses a **-2 to 2 range**, mapped to Terrible → Happy.
 - Days without entries render as gaps (null values).
 - You can switch to a bar chart or area chart by replacing <LineChart/> with <BarChart/> or <AreaChart/> if desired.
 
 ![graph condition](images/hisotry_chart.png)
 
-#### ✅ Toggle Chart Visibility
+### ✅ Toggle Chart Visibility
 
 You can **show/hide** the Emotion History Chart from the Home page.
 
@@ -269,7 +269,7 @@ You can **show/hide** the Emotion History Chart from the Home page.
 
 <br>
 
-#### ✅ Load More for Long Diaries
+### ✅ Load More for Long Diaries
 
 If you have many diary entries in a month, the list initially renders a subset and shows a **“Load More”** button at the bottom.
 
