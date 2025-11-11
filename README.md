@@ -44,7 +44,7 @@ Implemented with **React-Toastify** for create/edit/delete feedback.
 
 | Create                        | Edit                       | Delete                        |
 | ------------------------------------ | ------------------------------------ | ------------------------------------ |
-| ![Alarm Images](images/create alarm.png) | ![Alarm Images](images/update alarm.png) | ![Alarm Images](images/delete alarm.png) |
+| ![Alarm Images](images/create-alarm.png) | ![Alarm Images](images/update-alarm.png) | ![Alarm Images](images/delete-alarm.png) |
 
 <br>
 
