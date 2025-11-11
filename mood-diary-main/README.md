@@ -2,8 +2,6 @@
 
 <br>
 
-<br>
-
 ## 📝 Project Overview
 
 This project is a redesigned and upgraded version of the previous **Mood Diary** application.  
