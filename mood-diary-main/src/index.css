@@ -1,0 +1,31 @@
+@import "react-toastify/dist/ReactToastify.css";
+@import "../node_modules/pretendard/dist/web/static/pretendard.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  width: 100%;
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  @apply bg-bgLight;
+}
+
+html .dark {
+  @apply bg-bgDark;
+}
+
+#root {
+  @apply bg-white max-w-screen-sm w-full my-0 mx-auto min-h-screen h-full shadow-xl px-5;
+  @apply dark:bg-mainDark;
+}
+
+.multi-line-truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
