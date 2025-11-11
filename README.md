@@ -64,8 +64,11 @@ export default {
   plugins: [],
 };
 
+```
+
 ### 3-2 Theme State Management
 
+```ts
 // context/theme-context.tsx
 const ThemeContext = createContext({ isDarkMode: false, toggleDarkMode: () => {} });
 
@@ -275,6 +278,8 @@ If you have many diary entries in a month, the list initially renders a subset a
 
 - Click **“Load More”** to append the next batch of items.
 - This keeps the page responsive while scrolling through large archives.
+  
+<br>
 
 ### 🗂️ Sorting Diaries (Newest ↔ Oldest)
 
