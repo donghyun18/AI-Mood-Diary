@@ -119,6 +119,11 @@ Create a `.env.local` file in the project root:
 touch .env.local
 ```
 
+And write like below. 
+```bash
+VITE_GPT_API_KEY=your_openai_api_key_here
+```
+
 ### ✅ How the AI Reply Works (CallGPT Function)
 
 The AI reply is generated using the `CallGPT` function located in `src/api/gpt.ts`.
