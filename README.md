@@ -119,7 +119,7 @@ Create a `.env.local` file in the project root:
 touch .env.local
 ```
 
-And write like below. 
+And write like below inside .env.local file.
 ```bash
 VITE_GPT_API_KEY=your_openai_api_key_here
 ```
